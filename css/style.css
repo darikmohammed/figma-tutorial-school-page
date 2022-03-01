@@ -6,6 +6,17 @@ a {
   color: #00160a;
   text-decoration: none;
 }
+p {
+  margin-top: 7px;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 23px;
+}
+h1 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 47px;
+}
 .wrapper {
   margin: 1em;
 }
@@ -30,6 +41,10 @@ button {
   width: 374px;
   height: 55.41px;
 }
+/*.nav-bar {
+  position: fixed;
+  top: 0;
+}*/
 .nav-bar ul {
   list-style: none;
   display: flex;
