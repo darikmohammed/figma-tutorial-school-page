@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #00160a;
+  text-decoration: none;
+}
+p {
+  margin-top: 7px;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 23px;
+}
+h1 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 47px;
+}
+.wrapper {
+  margin: 1em;
+}
+
+.discription {
+  font-family: "Poppins", sans-serif;
+  margin-top: 25.33px;
+}
+.buttons {
+  margin-top: 26px;
+  display: flex;
+  flex-direction: column;
+}
+button {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: white;
+  background-color: #00160a;
+  box-shadow: 5.27062px 5.27062px 2.10825px rgba(0, 0, 0, 0.25);
+  border-radius: 9.48711px;
+  margin: 17px 0px;
+  width: 374px;
+  height: 55.41px;
+}
+/*.nav-bar {
+  position: fixed;
+  top: 0;
+}*/
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+}
+.nav-bar .toogleMenu {
+  display: none;
+}
+.nav-bar .nav-menu {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  flex: 1;
+  align-self: center;
+}
+.nav-bar .Logo {
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  flex: 6;
+  align-self: center;
+}
+
+@media all and (max-width: 414px) {
+  .nav-bar .nav-menu {
+    display: none;
+  }
+  .nav-bar .toogleMenu {
+    display: block;
+    align-self: center;
+  }
+  .flying-kid-image {
+    width: 374px;
+    height: 348.67px;
+    margin-top: 47px;
+  }
+}
