@@ -6,30 +6,11 @@ a {
   color: #00160a;
   text-decoration: none;
 }
-p {
-  margin-top: 7px;
-  font-weight: 300;
-  font-size: 19px;
-  line-height: 23px;
-}
-h1 {
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 47px;
-}
+
 .wrapper {
   margin: 1em;
 }
 
-.discription {
-  font-family: "Poppins", sans-serif;
-  margin-top: 25.33px;
-}
-.buttons {
-  margin-top: 26px;
-  display: flex;
-  flex-direction: column;
-}
 button {
   font-family: "Roboto", sans-serif;
   font-size: 24px;
@@ -41,10 +22,12 @@ button {
   width: 374px;
   height: 55.41px;
 }
-/*.nav-bar {
+/* .nav-bar {
   position: fixed;
   top: 0;
-}*/
+  width: 90%;
+  background-color: white;
+} */
 .nav-bar ul {
   list-style: none;
   display: flex;
@@ -77,5 +60,39 @@ button {
     width: 374px;
     height: 348.67px;
     margin-top: 47px;
+  }
+  .img-artist {
+    width: 333px;
+    height: 412.76px;
+    margin-top: 8px;
+  }
+  p {
+    font-family: "Poppins", sans-serif;
+    margin-top: 7px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 23px;
+  }
+  h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 47px;
+  }
+  .discription {
+    margin-top: 25.33px;
+  }
+
+  .discription-second-page {
+    margin-top: 47.24px;
+  }
+
+  .get-started {
+    margin-top: 58px;
+  }
+  .buttons {
+    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
   }
 }
