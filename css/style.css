@@ -6,7 +6,24 @@ a {
   color: #00160a;
   text-decoration: none;
 }
-
+footer {
+  background-color: #00160a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 40px;
+}
+.social {
+  display: flex;
+  justify-content: center;
+}
+.copyright {
+  align-self: center;
+  margin: 19px;
+}
+.social > * {
+  margin: 10px;
+}
 .wrapper {
   margin: 1em;
 }
@@ -46,7 +63,12 @@ button {
   flex: 6;
   align-self: center;
 }
-
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
 @media all and (max-width: 414px) {
   .nav-bar .Logo {
     font-size: 48px;
@@ -125,5 +147,15 @@ button {
   }
   .course-button {
     width: 44%;
+  }
+  .download-img {
+    margin-top: 28px;
+    margin-bottom: 38.4px;
+  }
+  .link {
+    flex: 1 1 50%;
+  }
+  .header {
+    margin-top: 33px;
   }
 }
