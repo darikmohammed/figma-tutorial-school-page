@@ -2,10 +2,26 @@
   margin: 0;
   padding: 0;
 }
+main {
+  margin-top: 20px;
+}
 a {
   color: #00160a;
   text-decoration: none;
 }
+h1,
+p {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  margin: 10px 20px;
+  display: flex;
+}
+header .nav-bar {
+  align-self: center;
+  flex: 1;
+}
+
 footer {
   background-color: #00160a;
   color: white;
@@ -58,7 +74,7 @@ button {
   flex: 1;
   align-self: center;
 }
-.nav-bar .Logo {
+header .logo {
   font-family: "Poppins", sans-serif;
   flex: 6;
   align-self: center;
@@ -69,11 +85,29 @@ button {
   justify-content: center;
   margin: 20px;
 }
+.header-teacher {
+  display: flex;
+  justify-content: center;
+}
+
+.teacher-card {
+  border: 3.74328px solid #00160a;
+  box-shadow: 9.35821px 9.35821px 3.74328px rgba(0, 0, 0, 0.25);
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.teacher-card img {
+  object-fit: cover;
+  border-radius: 50%;
+  object-position: top;
+}
 @media all and (max-width: 414px) {
-  .nav-bar .Logo {
+  header .logo {
     font-size: 48px;
   }
-  .nav-bar .nav-menu {
+  .nav-bar ul {
     display: none;
   }
   .nav-bar .toogleMenu {
@@ -91,14 +125,12 @@ button {
     margin-top: 8px;
   }
   p {
-    font-family: "Poppins", sans-serif;
     margin-top: 7px;
     font-weight: 300;
     font-size: 16px;
     line-height: 23px;
   }
   h1 {
-    font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 32px;
     line-height: 47px;
@@ -157,5 +189,16 @@ button {
   }
   .header {
     margin-top: 33px;
+  }
+  .teacher-card img {
+    align-self: center;
+    border: 2px solid black;
+    height: 185.29px;
+    width: 185.29px;
+    margin-top: 30px;
+  }
+  .teacher-card h1 {
+    align-self: center;
+    margin-bottom: 30px;
   }
 }
